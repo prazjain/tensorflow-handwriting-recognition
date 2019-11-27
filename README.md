@@ -23,6 +23,10 @@ In this exercise we will be doing image recognition on handwritten digits with s
 
 
         chmod +x predict_digits.py
+        pip3 install numpy
+        pip3 install tensorflow
+        pip3 install matplotlib
+        pip3 install Pillow
         ./predict_digits.py
 
 ### Output
