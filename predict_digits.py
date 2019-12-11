@@ -21,7 +21,7 @@ def load_handwritten_digit_image(filename):
     # plot.imshow(img)
     # plot.show()
     img = tf.reshape(img, [784])
-    return image_tensor, int(pathlib.Path(filename).stem)
+    return img, int(pathlib.Path(filename).stem)
 
 
 # store mnist data in /tmp/data
